@@ -1,0 +1,190 @@
+/*!
+ * BuilderEngine Themes (http://builderengine.com)
+ */
+
+
+/* -------------------------------
+	General Styles
+------------------------------- */
+
+body {
+    background: #f9f9f9;
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    font-size: 14px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+	line-height: 1.4;
+    color: #242a30;
+}
+p {
+	word-break: normal !important;
+}
+a {
+    -webkit-transition: all .1s linear;
+    -moz-transition: all .1s linear;
+    transition: all .1s linear;
+}
+hr {
+    border: 0;
+    margin: 30px 0;
+    border-top: #F8F8F8 1px solid;
+    border-bottom: #EEEEEE 1px solid;
+}
+.label {
+    font-size: 11px;
+}
+
+/* -------------------------------
+    Content & Section Settings
+------------------------------- */
+.content {
+    padding: 5px 0px 5px;
+}
+#homepage {
+	padding: 0px 0px 30px;
+}
+#themes-top-slider {
+	padding: 0px 0px 0px;
+}
+#themes-content {
+	padding: 0px 0px 0px;
+}
+
+/* -------------------------------
+    Header Section
+------------------------------- */
+
+.themes-header { 
+	padding-top: 5px;
+    padding-bottom: 5px;
+}
+.themes-logo { 
+	margin-bottom:0px;
+}
+.themes-logo img { 
+    max-height: 68px;
+	width:auto;
+}
+/*--- Navbar Custom Styles ---*/
+#header-navbar {
+    background-color: transparent;
+    padding-top: 15px;
+}
+.navbar-nav > li > a {
+    font-weight: 600;
+    font-size: 15px;
+    padding: 12px 15px;
+}
+.navbar-nav > li > a:hover {
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+/*--- Fixed Navbar Position Styles ---*/
+.be-position-fixed-top {
+  position: fixed !important;
+  top: 0px !important;
+  z-index: 9999 !important;
+  width: 100%;
+  background: #222;
+  border-bottom: none;
+  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+}
+
+/* -------------------------------
+    Footer Section
+------------------------------- */
+
+.footer-section ul, ol {
+	list-style-type: none;
+	padding: 0;
+	line-height: 1.8;
+}
+.footer-logo {
+    display: inline-block;
+}
+.footer-menu li {
+	display:inline-block;
+}
+.footer-menu li:after {
+	content:'/';
+	padding:0 5px;
+}
+#footer-bottom p {
+	margin-top:10px
+}
+#footer-bottom li {
+	margin-top:7px
+}
+.footer-menu li:last-child:after {
+	content:'';
+}
+.footer-menu {
+	text-align:right;	
+}
+
+/* -------------------------------
+    Homepage - Custom Styles
+------------------------------- */
+
+.btn-sm, .btn-group-sm>.btn {
+    font-weight: 600;
+}
+
+/* -------------------------------
+    #Custom CSS - Extra Styles
+------------------------------- */
+
+
+/*!
+ * BuilderEngine Themes (http://builderengine.com)
+ */
+/* -------------------------------
+    #Responsive Styles
+------------------------------- */
+
+@media (max-width: 1200px) {
+
+}
+@media (min-width: 1200px)
+}
+@media (min-width: 768px) and (max-width: 992px) {
+}
+@media (max-width: 992px) { 
+.themes-logo {
+    margin-bottom: 0px;
+    text-align: center;
+}
+#header-navbar {
+    padding-top: 0px;
+}
+
+}
+@media (max-width: 770px) { 
+}
+@media (max-width: 767px) {
+#header-navbar {
+    padding-left: 0px;
+}
+.flex-caption {
+    width: 60%;
+}
+
+}
+@media (max-width: 480px) {
+.flex-caption {
+    display: none;
+}
+.flexslider .slides img {
+    width: 100%;
+    display: block;
+    height: 180px;
+}
+.themes-logo img {
+    width: 100%;
+}
+
+}

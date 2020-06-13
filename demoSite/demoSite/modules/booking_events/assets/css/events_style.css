@@ -1,0 +1,1414 @@
+/*!
+ * BuilderEngine Module Themes (http://builderengine.com)
+ */
+
+/* -------------------------------
+	General Styles - Event
+------------------------------- */
+.bookingevents-bg-calendar .label {
+    font-size: 11px;
+    line-height: 2;
+}
+
+.event-product {
+    background: #fff;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15);
+}
+.event-product:before,
+.event-product:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.event-product-detail {
+    display: table;
+    width: 100%;
+}
+.event-top-padding {
+padding-top: 10px;
+}
+
+.event-logins {
+/*
+padding-right: 15px;
+margin-top: 10px;
+*/
+}
+
+.bookingevents-bg-space {
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+.bookingevents-bg-calendar {
+    background: #ffffff;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+.fc-ltr .fc-basic-view .fc-day-top .fc-day-number {
+    color: #000000;
+}
+
+.event-product-buynow-2 {
+    display:none;
+}
+.buynow-2 {
+    display:none;
+}
+.event-product-buynow-3 {
+    display:none;
+}
+.event-product-social-2 {
+    display:none;
+}
+
+.bookingevents-list-bg-1 {
+    background: #ffffff;
+    padding-top: 10px;
+}
+.bookingevents-list-bg-2 {
+    background: #ffffff;
+}
+
+/* 12.2 Product Thumbnail Setting */
+
+.event-product-image,
+.event-product-info {
+  
+}
+.event-product-main-image {
+    margin-left: 80px;
+    padding: 10px;
+    text-align: center;
+}
+.event-product-thumbnail {
+    width: 80px;
+    float: left;
+    padding: 20px 10px;
+}
+.event-product-thumbnail-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.event-product-thumbnail-list > li a {
+    display: block;
+    text-decoration: none;
+    background: none;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+.event-product-thumbnail-list > li + li {
+    margin-top: 10px;
+}
+.event-product-thumbnail-list > li.active a {
+    border-color: #212121;
+} 
+.event-product-thumbnail-list > li a img {
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+    top: -3px;
+}
+
+
+/* 12.3 Product Image Setting */
+
+.event-product-image {
+    
+}
+.event-product-image img {
+    max-width: 100%;
+}
+.event-product-main-image img {
+    max-height: 100%;
+}
+
+
+/* 12.4 Product Info Setting */
+
+.event-product-info {
+    padding: 20px 20px;
+    margin-bottom: 20px;
+}
+.event-product-info-header {
+    padding-bottom: 15px;
+    margin-bottom: 15px;   
+}
+.event-date {
+}
+.event-product-title {
+    margin: 0 0 10px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;  
+	margin: 0 0 15px;
+    padding: 0 0 15px;
+    border-bottom: 1px solid #D8E0E4;
+}
+.event-product-title .label {
+    padding: 5px 8px;
+    font-size: 14px;
+    float: left;
+    margin-right: 10px;
+}
+
+.event-price-1 .event-product-title {
+    margin: 0 0 0px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-top: 14px;
+    padding-left: 15px;  
+}
+.event-price-1 .event-product-title .label {
+    padding: 5px 8px;
+    font-size: 14px;
+    float: left;
+    margin-right: 10px;
+}
+
+.event-datename {
+	font-size: 15px;
+    float: left;
+    padding-right: 10px;
+    margin-top: -1.5px;
+    font-weight:600;
+}
+.event-date p {
+	font-size: 14px;
+}
+.maptext {
+	font-size:10px;
+	text-decoration:none;
+}
+.event-product-mapdirections {
+	margin-top: 20px;
+	padding-bottom: 20px;
+}
+
+
+/* 12.5 Product Availability Setting */
+
+.event-product-availability { 
+    font-size: 18px;
+}
+
+
+/* 12.6 Product Info List Setting */
+
+.event-product-info-list {
+    color: #636363;
+    list-style-type: none;
+    margin: 0 0 15px;
+    padding: 0 0 15px;
+    line-height: 20px;
+    border-bottom: 1px solid #D8E0E4;  
+}
+.event-product-info-list > li {
+    position: relative;
+    padding-left: 20px;
+}
+.event-product-info-list > li + li {
+    margin-top: 3px;
+}
+.event-product-info-list > li .fa {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -10px;
+    line-height: 20px;
+    width: 15px;
+    text-align: center;
+}
+.event-product-info-list > li .fa.fa-circle {
+    font-size: 5px;
+}
+
+
+/* 12.7 Product Category Setting */
+
+.event-product-category {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.event-product-category > li {
+    display: inline;
+}
+.event-product-category > li + li {
+    margin-left: 5px;
+}
+.event-product-category > li a {
+    color: #707478;
+}
+
+
+/* 12.8 Product Price Setting */
+.event-price{
+	color:#ffffff;
+}
+.event-product-price {
+    margin: 15px 0 15px;
+	margin-top: 30px;
+    margin-bottom: 30px;
+}
+.event-product-price:before,
+.event-product-price:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.event-product-price .event-price {
+    font-size: 32px;
+    padding: 10px;
+    border: 2px dashed #4c4c4c;
+}
+
+.booking-price {
+    margin: 0 0px 10px 0;
+    font-size: 1.9em;
+    font-weight: 900;
+    color: #008000;
+}
+.booking-price {
+    margin-top: 10px !important;
+}
+.booking-title {
+    font-size:18px;
+	padding-top:10px;
+}
+.booking-code {
+    font-size: 16px;
+    margin-top: 13px;
+}
+.booking-voucher-area {
+    padding:10px;
+	margin:3px;
+	border-radius:10px;
+	border:2px dashed #aaa;
+}
+
+.bookingevents-model-space {
+
+}
+.bookingevents-model-space h4 {
+
+}
+.bookingevents-model-space label {
+
+}
+.bookingevents-model-top-header {
+	background: #ccc;
+	border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.bookingevents-model-side-bar {
+    border-left: 15px solid #00acac !important;
+    margin-top: 10px;
+}
+.bookingevents-checkout-box {
+    background: #eee;
+    padding: 25px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+
+/* 12.9 Product Warranty Setting */
+
+.event-product-warranty {
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #D8E0E4;    
+}
+
+
+/* 12.10 Product Discount Setting */
+
+.event-product-discount .discount {
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: line-through;
+    color: #707478;
+}
+.event-product-discount .save {
+    margin-left: 10px;
+    color: #707478;
+    position: relative;
+    top: -1px;
+}
+
+
+/* 12.11 Product Social Setting */
+
+.event-product-social {
+    margin: 0 0 15px;
+    padding: 0 0 15px;
+    border-bottom: 1px solid #D8E0E4;  
+}
+.event-product-social:before,
+.event-product-social:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.event-product-social ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.event-product-social ul > li {
+    float: left;
+}
+.event-product-social ul > li + li {
+    margin-left: 10px;
+}
+.event-product-social ul > li > a {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    background: #ddd;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 3px;
+	padding-top: 7px;
+}
+.event-product-social ul > li > a.facebook {
+    background: #3b5998;
+}
+.event-product-social ul > li > a.twitter {
+    background: #00aced;
+}
+.event-product-social ul > li > a.google-plus {
+    background: #d34836;
+}
+.event-product-social ul > li > a.whatsapp {
+    background: #6CC964;
+}
+.event-product-social ul > li > a.tumblr {
+    background: #36465d;
+}
+
+
+/* 12.12 Product Tab Setting */
+
+.event-product-tab {
+    /*margin-top: 40px;*/
+}
+.event-product-tab .nav.nav-tabs {
+    background: #fff;
+    border-bottom: 1px solid #D8E0E4;
+    text-align: center;
+    font-size: 16px;
+}
+.event-product-tab .nav.nav-tabs > li {
+    float: none;
+    display: inline-block;
+}
+.event-product-tab .nav.nav-tabs > li + li {
+    margin-left: 5px;
+}
+.event-product-tab .nav.nav-tabs > li > a {
+    position: relative;
+    border: 1px solid transparent;
+}
+.event-product-tab .nav.nav-tabs > li > a:hover,
+.event-product-tab .nav.nav-tabs > li > a:focus {
+    border-bottom: 1px solid #666;
+    background: none;
+}
+.event-product-tab .nav-tabs > li.active > a, 
+.event-product-tab .nav-tabs > li.active > a:focus, 
+.event-product-tab .nav-tabs > li.active > a:hover {
+    border-color: transparent;
+    border-bottom: 1px solid #212121;
+    color: #212121;
+}
+.event-product-tab .tab-content {
+    padding: 20px;
+}
+
+
+/* 12.13 Product Desc Setting */
+
+.event-product-desc {
+    padding: 20px;
+	padding-top: 0px;
+}
+.event-product-desc h4 {
+}
+.event-product-desc h2 {
+}
+.event-product-desc:before,
+.event-product-desc:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.event-product-desc .image {
+    float: left;
+    width: 50%;
+    padding-right: 40px;
+}
+.event-product-desc .image img {
+    max-width: 100%;
+}
+.event-product-desc .desc {
+    float: left;
+    width: 50%;
+    padding-left: 40px;
+}
+.event-product-desc .desc h4 {
+    margin: 0 0 15px;
+    font-size: 36px;
+    font-weight: 300;
+}
+.event-product-desc .desc p {
+    font-size: 16px;
+    font-weight: normal;
+    color: #929292;
+    line-height: 26px;
+}
+.event-product-desc + .event-product-desc {
+    margin-top: 0px;
+    border-top: 1px solid #D8E0E4;
+}
+.event-product-desc.right .image {
+    float: right;
+    padding-left: 20px;
+    padding-right: 0;
+}
+.event-product-desc.right .desc {
+    float: left;
+    text-align: right;
+    padding-right: 20px;
+    padding-left: 0;
+}
+
+
+/* 12.14 Product Table Setting */
+
+.table.table-product .field {
+    width: 30%;
+    font-size: 18px;
+    font-weight: 300;
+}
+.table.table-product th,
+.table.table-product td {
+    padding: 20px 25px 20px 0;
+}
+.table.table-product.table-striped th,
+.table.table-product.table-striped td {
+    padding: 20px 25px;
+}
+.table.table-product th {
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+}
+
+
+/* 12.15 Product Review Setting */
+
+.event-review + .event-review {
+    margin-top: 25px;
+    padding-top: 25px;
+    border-top: 1px solid #D8E0E4;
+}
+.event-review:before,
+.event-review:after,
+.event-review-info:before,
+.event-review-info:after  {
+    content: '';
+    display: table;
+    clear: both;
+}
+.event-review .event-review-icon {
+    height: 36px;
+    width: 36px;
+    background: #f4f5f6;
+    color: #999;
+    text-align: center;
+    overflow: hidden;
+    float: left;
+    margin-right: 12px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.event-review .event-review-icon img {
+    max-width: 100%;
+}
+.event-review .event-review-icon i {
+    line-height: 48px;
+    font-size: 36px;
+}
+.event-review .event-review-info {
+    margin-bottom: 10px;
+}
+.event-review .event-review-info .event-review-rate {
+    float: right;
+    text-align: center;
+    font-weight: 600;
+    font-size: 12px;
+}
+.event-review .event-review-rate .event-review-star {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+.event-review .event-review-rate .event-review-star > li {
+    float: left;
+}
+.event-review .event-review-rate .event-review-star > li + li {
+    margin-left: 3px;
+}
+.event-review .event-review-rate .event-review-star > li.active {
+    color: #f59c1a;
+}
+.event-review .event-review-name {
+    font-weight: 600;
+    font-size: 14px;
+}
+.event-review .event-review-date {
+    font-size: 12px;
+    color: #999;
+}
+.event-review .event-review-title {
+    margin: 0;
+    font-weight: 600;
+    font-size: 14px;
+}
+.event-review-form {
+    display: block;
+    background: #f4f5f6;
+    padding: 30px;
+}
+.event-review-form h2 {
+    font-size: 24px;
+    border-bottom: 1px solid #D8E0E4;
+    margin: 0 0 20px;
+    padding-bottom: 10px;
+}
+
+/* -------------------------------
+	Booking Event Styles - Events
+------------------------------- */
+
+.event-top-padding {
+padding-top: 10px;
+}
+.event-logins {
+/* padding-right: 15px; */
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.event-tiles {
+min-height:470px;
+}
+.event-tiles-image {
+height:150px !important;
+box-shadow: 0 2px 2px -1px rgba(0,0,0,.2), 0 2px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12);
+}
+.event-tiles-padding {
+	padding-right: 5px !important;
+    margin-right: -7px;
+    margin-left: 2px;
+}
+.event-tiles-padding-2nd {
+    padding-left: 15px !important;
+    padding-right: 5px !important;
+}
+.event-tiles-padding .thumbnail {
+padding: 0px;
+}
+.event-tiles-padding-2nd .thumbnail {
+padding: 0px;
+}
+.event-tiles-padding .thumbnail h3 {
+color: #242a30;
+margin-top: 0px;
+}
+.event-pills {
+	padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+.event-short-text {
+height: 157px;
+overflow: hidden;
+}
+.panel-title .accordion-toggle:hover {
+    color:#d8d8d8;
+}
+
+.fc-icon, .fc-toolbar .fc-center h2 {
+    color: 242a30;
+}
+.event-pills a:hover {
+    color: #337ab7;
+}
+
+.result-list:before,
+.result-list:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.result-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.result-list > li:before,
+.result-list > li:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.result-list > li {
+	border: 1px solid #000;
+    background: #fff;
+    box-shadow: 0 1px #ccc;
+    border-radius: 3px;
+    overflow: hidden;
+}
+.result-list > li + li {
+    margin-top: 10px;
+}
+.result-list > li > div {
+    display: table-cell;
+    vertical-align: top;
+    padding: 20px;
+    position: relative;
+}
+.result-list .result-image {
+    width: 240px;
+    padding: 0;
+    overflow: hidden;
+    background: #2d353c;
+    vertical-align: middle;
+}
+.result-list .result-image a {
+    display: block;
+}
+.result-list .result-image a:hover,
+.result-list .result-image a:focus {
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+.result-list .result-image img {
+    width: 100%;
+}
+.result-list .title {
+    margin: 0 0 8px;
+    font-size: 20px;
+    line-height: 24px;
+}
+.result-list .title a {
+    color: #333;
+}
+.result-list .location {
+    color: #999;
+}
+.result-list .desc {
+    margin-bottom: 20px;
+    max-height: 32px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 16px;
+	color: #4C5053;
+}
+.result-list .btn-row a {
+    color: #666;
+    font-size: 20px;
+    line-height: 14px;
+    opacity: 0.2;
+}
+.result-list .btn-row a:hover,
+.result-list .btn-row a:focus {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+.result-list .btn-row a + a {
+    margin-left: 10px;
+}
+.result-list .result-info {
+
+}
+.result-list .result-price {
+    width: 240px;
+    font-size: 28px;
+    text-align: center;
+    border-left: 1px dashed #ddd;
+    padding-top: 30px;
+	color: #4C5053;
+}
+.result-list .result-price small {
+    display: block;
+    font-size: 12px;
+    color: #999;
+}
+.result-list .result-price .btn {
+    margin-top: 30px;
+}
+.bookingevents-container .panel {
+    border: none;
+	background: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.bookingevents-container .panel.panel-no-rounded-corner .panel-heading,
+.bookingevents-container .panel.panel-no-rounded-corner .panel-body,
+.bookingevents-container .panel.panel-no-rounded-corner .panel-footer {
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    border-radius: 0 !important;
+}
+.bookingevents-container .panel-heading {
+    padding: 10px 0px;
+    border: none;
+}
+.bookingevents-container .panel-heading + .table,
+.bookingevents-container .panel-heading + .slimScrollDiv {
+    border-top: 1px solid #eee;
+}
+.bookingevents-container .panel-heading-btn {
+    float: right;
+}
+.bookingevents-container .panel-heading-btn > a {
+    margin-left: 8px;
+}
+.bookingevents-container .panel-heading .btn-group .btn {
+    margin-top: -7px;
+}
+.bookingevents-container .panel-heading .btn-group .btn.btn-sm {
+    margin-top: -5px;
+}
+.bookingevents-container .panel-heading .btn-group .btn.btn-xs {
+    margin-top: -1px;
+}
+.bookingevents-container .panel-heading .label.pull-left,
+.bookingevents-container .panel-heading .label.pull-right {
+    line-height: 15px;
+}
+.bookingevents-container .panel-heading .progress.pull-right,
+.bookingevents-container .panel-heading .progress.pull-left {
+    width: 40%;
+    min-width: 120px;
+}
+.bookingevents-container .panel-heading + .alert {
+    margin-bottom: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+.bookingevents-container .panel-with-tabs.panel-default .panel-heading {
+    background:none;
+    border: none;
+}
+.bookingevents-container .panel-heading .nav-tabs {
+    margin-top: -10px;
+    margin-right: -15px;
+}
+.bookingevents-container .panel-heading .nav-tabs > li > a {
+    padding: 10px 15px;
+    line-height: 20px;
+}
+.bookingevents-container .panel-title {
+    line-height: 20px;
+    font-size: 14px;
+	padding: 5px;
+}
+.bookingevents-container .panel-title .accordion-toggle {
+    padding: 10px 15px;
+}
+.bookingevents-container .panel-title .accordion-toggle.accordion-toggle-styled .fa:before {
+    content: '\f056';
+}
+.bookingevents-container .panel-title .accordion-toggle.accordion-toggle-styled.collapsed .fa:before {
+    content: '\f055';
+}
+.bookingevents-container .panel-title .pull-right {
+    line-height: 20px;
+}
+.bookingevents-container .panel-toolbar {
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    padding: 10px 15px;
+    background: #fff;
+}
+.bookingevents-container .panel-toolbar + .form-control {
+    margin: -1px 0 0;
+    border-right: none;
+    border-left: none;
+}
+.bookingevents-container .panel-group .panel {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.form-control + .panel-footer {
+    border-top: none;
+}
+.bookingevents-container .panel-body {
+    padding: 15px;
+}
+.bookingevents-container .panel-body.no-border {
+    border: none !important;
+}
+.bookingevents-container .panel-body.panel-table,
+.bookingevents-container .panel-body.panel-form,
+.bookingevents-container .panel-body.no-padding,
+.bookingevents-container .panel-body.panel-full-width {
+    padding: 0 !important;
+}
+.bookingevents-container .panel-body.with-table > .table {
+    border: 0;
+    margin: 0;
+}
+.bookingevents-container .panel-body.with-table > .table tr:last-child th,
+.bookingevents-container .panel-body.with-table > .table tr:last-child td{
+    border-bottom: 0;
+}
+.bookingevents-container .panel-default > .panel-heading + .panel-collapse .panel-body {
+    border-top: 1px solid #eee;
+}
+.bookingevents-container .panel-footer {
+    background: #fff;
+    border-top: 1px solid #eee;
+}
+.bookingevents-container .panel .tab-content {
+    -webkit-border-radius: 0 0 3px 3px;
+    -moz-border-radius: 0 0 3px 3px;
+    border-radius: 0 0 3px 3px;
+}
+.bookingevents-container .panel-default > .panel-heading {
+    background: none;
+}
+.bookingevents-container .panel-inverse > .panel-heading,
+.bookingevents-container .panel-success > .panel-heading,
+.bookingevents-container .panel-warning > .panel-heading,
+.bookingevents-container .panel-danger > .panel-heading,
+.bookingevents-container .panel-primary > .panel-heading,
+.bookingevents-container .panel-info > .panel-heading {
+    color: #fff;
+}
+.bookingevents-container .panel-inverse > .panel-heading { background: #242a30; }
+.bookingevents-container .panel-success > .panel-heading { background: #008a8a; }
+.bookingevents-container .panel-warning > .panel-heading { background: #c47d15; }
+.bookingevents-container .panel-danger > .panel-heading { background: #cc4946; }
+.bookingevents-container .panel-primary > .panel-heading { background: #2a72b5; }
+.bookingevents-container .panel-info > .panel-heading { background: #3a92ab; }
+
+.event-calendar-1 .nav-pills>li>a {
+    color:#464646;
+}
+.event-calendar-1 .nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+    color: #fff;
+    background-color: #aaa;
+}
+.be-category-bar-blue {
+	background-color: #02C3F3;
+}
+.be-category-bar-pink {
+	background-color: #F079AD;
+}
+.be-category-bar-yellow {
+	background-color: #b3a300;
+}
+.be-category-bar-orange {
+	background-color: #FB9404;
+}
+.be-category-bar-green {
+	background-color: #C2DA66;
+}
+.be-category-bar-white {
+	background-color: #FFFFFF;
+}
+
+.bookingevents-upcoming-category-heading {
+	padding-top: 5px;
+    padding-left: 5px;
+}
+
+
+/* -------------------------------
+	Booking Event Styles - Checkout
+------------------------------- */
+.event-checkout-top-padding {
+    padding-top: 40px;
+}
+
+
+/* -------------------------------
+	Booking Event Styles - Calendar
+------------------------------- */
+.bookingevents-container table td {
+    padding: 0px 0 0px 0;
+    vertical-align: middle;
+    font-size: 0.95em;
+    font-weight: 300;
+    position: relative;
+}
+
+.bookingevents-style .fc-day-grid-event {
+    padding: 1px 2px;
+}
+.bookingevents-style .fc-event,
+.fc-event {
+    border: none;
+    background: #575d63;
+    border-radius: 0;
+}
+.bookingevents-style .fc-event-list .fc-event {
+    background: none;
+    border: none;
+    color: #242a30;
+    padding: 10px 15px;
+    font-size: 12px;
+    margin-left: -15px;
+    margin-right: -15px;
+    border-top: 1px solid #D2D6DA;
+    border-bottom: 1px solid #D2D6DA;
+}
+.bookingevents-style .fc-event-list .fc-event:hover,
+.bookingevents-style .fc-event-list .fc-event:focus {
+    color: #242a30;
+    cursor: pointer;
+    background: #f0f3f5;
+}
+.bookingevents-style .fc-event-list .fc-event.ui-draggable-dragging {
+    border: 1px dashed #D2D6DA;
+}
+.bookingevents-style .fc-event-list .fc-event + .fc-event {
+    margin-top: -1px;
+}
+.bookingevents-style .fc-event-list .fc-event .fa {
+    float: left;
+    margin-right: 10px;
+    font-size: 14px;
+}
+body .bookingevents-style button {
+    font-weight: 600;
+    color: #2f2f2f;
+    background: #fff;
+    border-color: #e2e7eb;
+    box-shadow: none;
+    padding: 5px 10px;
+    height: inherit;
+    font-size: 12px;
+    line-height: 1.5;
+}
+body .bookingevents-style button:active, 
+body .bookingevents-style button:focus,
+body .bookingevents-style button:hover {
+    background: #e2e7eb;
+    border-color: #d8dde1;
+    outline: none;
+}
+body .bookingevents-style button.fc-state-disabled:active, 
+body .bookingevents-style button.fc-state-disabled:focus,
+body .bookingevents-style button.fc-state-disabled:hover {
+    background: #fff;
+}
+body .bookingevents-style button.fc-state-active, 
+body .bookingevents-style button:active {
+    background: #e2e7eb;
+    border-color: #d8dde1;
+    -webkit-box-shadow: inset 0 3px 5px rgba(0,0,0,.1);
+    box-shadow: inset 0 3px 5px rgba(0,0,0,.1);
+}
+.bookingevents-style .fc-unthemed .fc-divider, 
+.bookingevents-style .fc-unthemed .fc-popover, 
+.bookingevents-style .fc-unthemed .fc-row, 
+.bookingevents-style .fc-unthemed tbody, 
+.bookingevents-style .fc-unthemed td, 
+.bookingevents-style .fc-unthemed th, 
+.bookingevents-style .fc-unthemed thead {
+    border-color: #e2e7eb;
+}
+.bookingevents-style th {
+    padding: 3px 15px;
+    color: #242a30;
+    font-weight: 500;
+    background: #f0f3f5;
+}
+.bookingevents-style button .fc-icon {
+    font-family: FontAwesome;
+    margin: 0;
+    top: 1;
+    width: auto;
+    height: auto;
+    font-size: 12px;
+	line-height: 1.50em;
+}
+.bookingevents-style .fc-icon-left-single-arrow:after,
+.bookingevents-style .fc-icon-right-single-arrow:after {
+    content: '\f053';
+    font-size: 12px;
+    top: 0;
+    margin: 0;
+}
+.bookingevents-style .fc-icon-right-single-arrow:after {
+    content: "\f054";
+}
+.bookingevents-style .fc-unthemed .fc-today {
+    background: #FFF8F0;
+}
+.bookingevents-style .fc-scroller {
+    overflow: initial;
+    height: auto !important;
+}
+.bookingevents-style .fc-toolbar h2 {
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.bookingevents-style .fc-unthemed .fc-content, .fc-unthemed .fc-divider, .fc-unthemed .fc-list-heading td, .fc-unthemed .fc-list-view, .fc-unthemed .fc-popover, .fc-unthemed .fc-row, .fc-unthemed tbody, .fc-unthemed td, .fc-unthemed th, .fc-unthemed thead {
+    border-color: #e6e6e6;
+}
+
+.bookingevents-style .fc-time-grid .fc-slats td {
+    height: 2.2em;
+    border-bottom: 0;
+}
+
+.bookingevents-style {
+}
+.bookingevents-style .fc-toolbar .fc-right {
+    float: left;
+}
+.bookingevents-style .fc-toolbar .fc-left {
+    float: right;
+}
+.bookingevents-style .fc-toolbar h2 {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.bookingevents-style .fc-time-grid .fc-event-container {
+    margin: 0 0.1% 0 1px;
+}
+.bookingevents-style .fc-event .fc-bg {
+    z-index: 1;
+    background: #fff;
+    opacity: .25;
+    border: 4px #e2e2e2 solid;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.67);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.83);
+}
+.bookingevents-style .fc-time-grid-event .fc-content {
+    overflow: hidden;
+    padding-top: 4px;
+    padding-left: 4px;
+}
+.bookingevents-style .fc-time-grid-event .fc-time {
+    font-size: .95em;
+    white-space: nowrap;
+    font-weight: 600;
+}
+.bookingevents-style .fc-event {
+    font-size: .95em;
+}
+.bookingevents-style .fc-time-grid-event.fc-short .fc-title {
+    font-size: .95em;
+    padding: 0;
+}
+.bookingevents-style .fc-time-grid-event.fc-allow-mouse-resize .fc-resizer:after {
+    content: "▼";
+}
+.bookingevents-style .fc-time-grid-event.fc-allow-mouse-resize .fc-resizer {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 8px;
+    line-height: 8px;
+    font-size: 14px;
+    color: #3e3e3e;
+}
+.bookingevents-style .fc-button-group>* {
+    float: left;
+    margin: 0 0 0 -1px;
+    text-transform: capitalize;
+}
+.bookingevents-style .fc-list-item-marker {
+    padding-right: 8px;
+    padding-left: 15px;
+}
+.bookingevents-style .fc-list-item-time {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:5px;
+}
+.bookingevents-style .fc-list-heading-main {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left:5px;
+}
+.bookingevents-style .fc-list-heading-alt {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right:5px;
+}
+
+.bookingevents-calendar-popup-style {
+	width:auto;
+	max-width:250px;
+	height:auto;
+	background:#fff;
+	color: #000000;
+	box-shadow: rgba(0, 0, 0, 0.21) 0px 1px 1px;
+	border: 1px solid rgb(226, 226, 226);
+	padding: 0px;
+	position:absolute;
+	z-index:10001;
+}
+.bookingevents-calendar-popup-style p {
+	word-break:break-all;
+	font-size:11px;
+	padding-right:5px;
+	color: #000000;
+}
+.bookingevents-calendar-popup-style img {
+	margin-left:6px;
+}
+.bookingevents-calendar-popup-style h6 {
+	background:#f7f7f7;
+	padding:10px;
+	color: #000000;
+	margin-bottom:20px;
+	margin-top:0px
+}
+.bookingevents-container .fc-content span {
+    color: #ffffff;
+    padding-left:3px;
+    font-weight:600;
+}
+.bookingevents-container .fc-content span:hover {
+    color: #f5f5f5;
+}
+.bookingevents-style, .fc-event:hover {
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid;
+}
+
+
+/* -------------------------------
+	Booking Event Styles - Unlimited Tabs
+------------------------------- */
+
+			.bookingevents-container .tab-overflow {
+				position: relative;
+				overflow: hidden;
+				-webkit-border-radius: 2px 2px 0 0;
+				-moz-border-radius: 2px 2px 0 0;
+				border-radius: 2px 2px 0 0;
+			}
+			.bookingevents-container .tab-overflow .nav.nav-tabs {
+				white-space: nowrap;
+				overflow: hidden;
+				display: table;
+				padding-left: 5px;
+				margin: 0;
+				-webkit-border-radius: 2px 2px 0 0;
+				-moz-border-radius: 2px 2px 0 0;
+				border-radius: 2px 2px 0 0;
+			}
+			.tab-overflow .nav.nav-tabs > li,
+			.tab-overflow.nav.nav-tabs > li {
+				display: table-cell;
+				float: none;
+			}
+			.tab-overflow .nav.nav-tabs > li > a {
+				margin-left: 0px;
+			}
+			.tab-overflow .next-button,
+			.tab-overflow .prev-button {
+				position: absolute;
+				right: 0;
+				top: 0;
+				z-index: 10;
+				display: none !important;
+				opacity: 0;
+				-webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+				box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+				-webkit-transition: all .2s linear;
+				-moz-transition: all .2s linear;
+				transition: all .2s linear;
+			}
+			.tab-overflow .prev-button {
+				left: 0;
+				right: auto;
+				-webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+				box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+			}
+			.tab-overflow .nav.nav-tabs.nav-tabs-inverse .next-button,
+			.tab-overflow .nav.nav-tabs.nav-tabs-inverse .prev-button {
+				-webkit-box-shadow: 0 0 15px #000;
+				box-shadow: 0 0 15px #000;
+			}
+			.tab-overflow .nav.nav-tabs.nav-tabs-inverse .prev-button {
+				-webkit-box-shadow: 0 0 15px #000;
+				box-shadow: 0 0 15px #000;
+			}
+			.tab-overflow .next-button a,
+			.tab-overflow .prev-button a {
+				margin: 0;
+				background: #c1ccd1;
+			}
+			.flat-black .tab-overflow .next-button a,
+			.flat-black .tab-overflow .prev-button a {
+				background: #d2d2d2;
+			}
+			.tab-overflow .prev-button > a {
+				-webkit-border-radius: 3px 0 3px;
+				-moz-border-radius: 3px 0 3px;
+				border-radius: 3px 0 3px;
+			}
+			.tab-overflow .nav-tabs-inverse .next-button > a,
+			.tab-overflow .nav-tabs-inverse .prev-button > a,
+			.nav.nav-tabs.nav-tabs-inverse > li > a,
+			.nav.nav-tabs.nav-tabs-inverse > li > a:hover,
+			.nav.nav-tabs.nav-tabs-inverse > li > a:focus {
+				background: #242a30;
+			}
+			.flat-black .tab-overflow .nav-tabs-inverse .next-button > a,
+			.flat-black .tab-overflow .nav-tabs-inverse .prev-button > a,
+			.flat-black .nav.nav-tabs.nav-tabs-inverse > li > a,
+			.flat-black .nav.nav-tabs.nav-tabs-inverse > li > a:hover,
+			.flat-black .nav.nav-tabs.nav-tabs-inverse > li > a:focus {
+				background: #2A2A2A;
+			}
+			.nav.nav-tabs.nav-tabs-inverse > li.active > a,
+			.nav.nav-tabs.nav-tabs-inverse > li.active > a:hover,
+			.nav.nav-tabs.nav-tabs-inverse > li.active > a:focus {
+				background: #fff;
+				color: #242a30;
+			}
+			.tab-overflow.overflow-right .next-button,
+			.tab-overflow.overflow-left .prev-button {
+				display: block !important;
+				opacity: 1;
+				background: none;
+			}
+			.tab-overflow .nav-tabs > li.prev-button + li.active > a {
+				-webkit-border-radius: 0 3px 0 0;
+				-moz-border-radius: 0 3px 0 0;
+				border-radius: 0 3px 0 0;
+			}
+
+			
+
+.bookingevents-25 {
+width: 25% !important;
+}
+.bookingevents-50 {
+width: 50%;
+}
+.booking-events-price-checkout {
+    font-size: 20px !important;
+    margin-left: 0px;
+    padding: 10px;
+    border: 2px dashed black;
+}
+.booking-events-booking-checkout {
+    float:right;
+}
+.booking-events-image-checkout {
+    width:940px;
+}
+
+.booking-events-list-box {
+   padding: 30px 15px;
+   padding-bottom:0px;
+}
+
+.event-tiles .caption {
+    padding: 9px;
+    color: #333;
+    max-height: 250px;
+    overflow: hidden;
+}
+.event-tiles .event-titles-view-event {
+    margin-top: 8px;
+}
+.event-tiles-image {
+    height: 150px !important;
+    object-fit: cover;
+    object-position: center;
+    box-shadow: 0 2px 2px -1px rgba(0,0,0,.2), 0 2px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12);
+}
+
+			
+/*!
+ * BuilderEngine Modules - Booking Events
+ */
+/* -------------------------------
+    #Responsive Styles
+------------------------------- */
+
+@media (max-width: 1200px) {
+
+}
+@media (min-width: 1200px)
+.content{}
+}
+@media (min-width: 768px) and (max-width: 992px) {
+}
+@media (max-width: 992px) { 
+.bookingevents-top-container { 
+padding-bottom: 15px;
+}
+}
+
+@media (max-width: 770px) { 
+}
+
+@media (max-width: 767px) {
+.event-tiles-image {
+    height: auto !important;
+    box-shadow: 0 2px 2px -1px rgba(0,0,0,.2), 0 2px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12);
+}
+}
+
+@media (max-width: 480px) {
+.bookingevents-style .fc-toolbar .fc-left {
+    float: left;
+    padding-bottom: 15px;
+}
+.bookingevents-style .fc-toolbar .fc-right {
+    float: left;
+    padding-bottom: 15px;
+}
+.bookingevents-25 {
+    width: 100% !important;
+    float: left;
+}
+.event-product-main-image {
+    margin-left: 0px;
+}
+.event-product-thumbnail {
+    display: none;
+}
+.event-price-1 .event-product-title {
+    display: none;
+}
+.event-logins {
+    padding-left: 10px;
+}
+}

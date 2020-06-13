@@ -1,0 +1,590 @@
+/*!
+ * BuilderEngine Module Themes (http://builderengine.com)
+ */
+
+
+/* -------------------------------
+	General Styles - Booking Rooms
+------------------------------- */
+.bookingrooms-container a {
+
+}
+
+.bookingrooms-container-tpl {
+    padding-top:25px;
+}
+.bookingrooms-top-padding-tpl {
+    padding-top:25px;
+	padding-bottom: 25px;
+}
+.bookingrooms-details-right-box {
+    margin-left: -15px;
+}
+.bookingrooms-details-left-box {
+    padding-right: 30px;
+}
+
+.bookingrooms-container table td {
+    padding: 0px 0 0px 0;
+    vertical-align: middle;
+    font-size: 0.95em;
+    font-weight: 300;
+    position: relative;
+}
+
+.bookingrooms-calendar-logo {
+	width: 105px;
+	height:30px;
+	margin-right:10px;
+	float:right;
+}
+
+/* Fullcalendar */
+
+.bookingrooms-bg-calendar {
+    background: #ffffff;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+.bookingrooms-bg-calendar h4 {
+
+}
+.bookingrooms-container .fc .fc-list-table {
+    color: #000000;
+}
+
+.bookingrooms-style .fc-day-grid-event {
+    padding: 1px 2px;
+}
+.bookingrooms-style .fc-event,
+.fc-event {
+    border: none;
+    background: #575d63;
+    border-radius: 0;
+}
+.bookingrooms-style .fc-event-list .fc-event {
+    background: none;
+    border: none;
+    color: #242a30;
+    padding: 10px 15px;
+    font-size: 12px;
+    margin-left: -15px;
+    margin-right: -15px;
+    border-top: 1px solid #D2D6DA;
+    border-bottom: 1px solid #D2D6DA;
+}
+.bookingrooms-style .fc-event-list .fc-event:hover,
+.bookingrooms-style .fc-event-list .fc-event:focus {
+    color: #242a30;
+    cursor: pointer;
+    background: #f0f3f5;
+}
+.bookingrooms-style .fc-event-list .fc-event.ui-draggable-dragging {
+    border: 1px dashed #D2D6DA;
+}
+.bookingrooms-style .fc-event-list .fc-event + .fc-event {
+    margin-top: -1px;
+}
+.bookingrooms-style .fc-event-list .fc-event .fa {
+    float: left;
+    margin-right: 10px;
+    font-size: 14px;
+}
+body .bookingrooms-style button {
+    font-weight: 600;
+    color: #2f2f2f;
+    background: #fff;
+    border-color: #e2e7eb;
+    box-shadow: none;
+    padding: 5px 10px;
+    height: inherit;
+    font-size: 12px;
+    line-height: 1.5;
+}
+body .bookingrooms-style button:active, 
+body .bookingrooms-style button:focus,
+body .bookingrooms-style button:hover {
+    background: #e2e7eb;
+    border-color: #d8dde1;
+    outline: none;
+}
+body .bookingrooms-style button.fc-state-disabled:active, 
+body .bookingrooms-style button.fc-state-disabled:focus,
+body .bookingrooms-style button.fc-state-disabled:hover {
+    background: #fff;
+}
+body .bookingrooms-style button.fc-state-active, 
+body .bookingrooms-style button:active {
+    background: #e2e7eb;
+    border-color: #d8dde1;
+    -webkit-box-shadow: inset 0 3px 5px rgba(0,0,0,.1);
+    box-shadow: inset 0 3px 5px rgba(0,0,0,.1);
+}
+.bookingrooms-style .fc-unthemed .fc-divider, 
+.bookingrooms-style .fc-unthemed .fc-popover, 
+.bookingrooms-style .fc-unthemed .fc-row, 
+.bookingrooms-style .fc-unthemed tbody, 
+.bookingrooms-style .fc-unthemed td, 
+.bookingrooms-style .fc-unthemed th, 
+.bookingrooms-style .fc-unthemed thead {
+    border-color: #e2e7eb;
+}
+.bookingrooms-style th {
+    padding: 3px 15px;
+    color: #242a30;
+    font-weight: 500;
+    background: #f0f3f5;
+}
+.bookingrooms-style button .fc-icon {
+    font-family: FontAwesome;
+    margin: 0;
+    top: 1;
+    width: auto;
+    height: auto;
+    font-size: 12px;
+	line-height: 1.50em;
+}
+.bookingrooms-style .fc-icon-left-single-arrow:after,
+.bookingrooms-style .fc-icon-right-single-arrow:after {
+    content: '\f053';
+    font-size: 12px;
+    top: 0;
+    margin: 0;
+}
+.bookingrooms-style .fc-icon-right-single-arrow:after {
+    content: "\f054";
+}
+.bookingrooms-style .fc-unthemed .fc-today {
+    background: #FFF8F0;
+}
+.bookingrooms-style .fc-scroller {
+    overflow: initial;
+    height: auto !important;
+}
+.bookingrooms-style .fc-toolbar h2 {
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.bookingrooms-style .fc-unthemed .fc-content, .fc-unthemed .fc-divider, .fc-unthemed .fc-list-heading td, .fc-unthemed .fc-list-view, .fc-unthemed .fc-popover, .fc-unthemed .fc-row, .fc-unthemed tbody, .fc-unthemed td, .fc-unthemed th, .fc-unthemed thead {
+    border-color: #e6e6e6;
+}
+
+.bookingrooms-style .fc-time-grid .fc-slats td {
+    height: 2.2em;
+    border-bottom: 0;
+}
+
+.bookingrooms-style {
+}
+.bookingrooms-style .fc-toolbar .fc-right {
+    float: left;
+}
+.bookingrooms-style .fc-toolbar .fc-left {
+    float: right;
+}
+.bookingrooms-style .fc-toolbar h2 {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.bookingrooms-style .fc-time-grid .fc-event-container {
+    margin: 0 0.1% 0 1px;
+}
+.bookingrooms-style .fc-event .fc-bg {
+    z-index: 1;
+    background: #fff;
+    opacity: .25;
+    border: 4px #e2e2e2 solid;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.67);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.83);
+}
+.bookingrooms-style .fc-time-grid-event .fc-content {
+    overflow: hidden;
+    padding-top: 4px;
+    padding-left: 4px;
+}
+.bookingrooms-style .fc-time-grid-event .fc-time {
+    font-size: .95em;
+    white-space: nowrap;
+    font-weight: 600;
+}
+.bookingrooms-style .fc-event {
+    font-size: .95em;
+	font-weight: 600;
+}
+.bookingrooms-style .fc-time-grid-event.fc-short .fc-title {
+    font-size: .95em;
+    padding: 0;
+}
+.bookingrooms-style .fc-time-grid-event.fc-allow-mouse-resize .fc-resizer:after {
+    content: "▼";
+}
+.bookingrooms-style .fc-time-grid-event.fc-allow-mouse-resize .fc-resizer {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 8px;
+    line-height: 8px;
+    font-size: 14px;
+    color: #3e3e3e;
+}
+.bookingrooms-style .fc-button-group>* {
+    float: left;
+    margin: 0 0 0 -1px;
+    text-transform: capitalize;
+}
+.bookingrooms-style .fc-list-item-marker {
+    padding-right: 8px;
+    padding-left: 15px;
+}
+.bookingrooms-style .fc-list-item-time {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:5px
+}
+.bookingrooms-style .fc-list-heading-main {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left:5px
+}
+.bookingrooms-style .fc-list-heading-alt {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right:5px
+}
+
+.bookingrooms-header-dark {
+	background: #313131;
+	color: #ffffff;
+	border: 1px #e2e2e2 solid;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.21);
+    box-shadow: 0 1px 1px rgba(0,0,0,.21);
+}
+.bookingrooms-panel-body-white {
+	background: #ffffff;
+	padding-bottom: 0px;
+	color: #020202;
+}
+.bookingrooms-panel-body-white h4 {
+}
+.event-calendar-bg-1 {
+	background: #ffffff;
+}
+.bookingrooms-style .navbar-user img {
+    float: right;
+    width: 20px;
+    height: 20px;
+    margin: 0px 4px 0 0;
+	margin-left: 7px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+}
+.bookingrooms-style .navbar-user-box img {
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin: 0px 12px 0 0;
+    margin-top: 1px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+}
+.bookingrooms-style .navbar-user-box {
+    font-weight:600;
+}
+.bookingrooms-style .text-grey {
+    color: #dedede;
+    font-weight: 500;
+}
+.bookingrooms-event-price{
+	color:#ffffff;
+}
+.bookingrooms-event-product-price {
+    margin: 15px 0 15px;
+	margin-top: 2px;
+}
+.bookingrooms-event-product-price:before,
+.bookingrooms-event-product-price:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.bookingrooms-event-product-price .bookingrooms-event-price {
+    font-size: 18px;
+    padding: 5px;
+    border: 2px dashed #4c4c4c;
+}
+
+.bookingrooms-booking-price {
+    margin: 0 0px 10px 0;
+    font-size: 1.9em;
+    font-weight: 900;
+    color: #008000;
+}
+.bookingrooms-booking-price {
+    margin-top: 10px !important;
+}
+.bookingrooms-booking-title {
+    font-size:18px;
+	padding-top:10px;
+}
+.bookingrooms-booking-code {
+    font-size: 16px;
+    margin-top: 13px;
+}
+.bookingrooms-booking-voucher-area {
+    padding:10px;
+	margin:3px;
+	border-radius:10px;
+	border:2px dashed #aaa
+}
+.bookingrooms-booking-price-hr hr {
+    border: 0;
+    margin: 0px 0;
+    margin-bottom: 20px;
+    border-top: #F8F8F8 1px solid;
+    border-bottom: #EEEEEE 1px solid;
+}
+.bookingrooms-department-booknow {
+    width:100%;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+.bookingrooms-department-booknow:hover {
+    color:#ffffff !important;
+}
+
+.bookingrooms-style a:hover,
+a:focus {
+    color: #232323;
+}
+
+.panel-default>.panel-heading.panel-rooms-white {
+    padding: 5px 7px;
+    border: none;
+	background-color: #fff;
+}
+
+.bookingrooms-container .panel {
+    border: 0px solid transparent;
+}
+
+/* -------------------------------
+	Booking Event Styles - Unlimited Tabs
+------------------------------- */
+
+			.tab-overflow {
+				position: relative;
+				overflow: hidden;
+				-webkit-border-radius: 2px 2px 0 0;
+				-moz-border-radius: 2px 2px 0 0;
+				border-radius: 2px 2px 0 0;
+				width: 100%;
+			}
+			.tab-overflow .nav.nav-tabs {
+				white-space: nowrap;
+				overflow: hidden;
+				display: table;
+				margin: 0;
+				-webkit-border-radius: 2px 2px 0 0;
+				-moz-border-radius: 2px 2px 0 0;
+				border-radius: 2px 2px 0 0;
+			}
+			.tab-overflow .nav.nav-tabs > li,
+			.tab-overflow.nav.nav-tabs > li {
+				display: table-cell;
+				float: none;
+			}
+			.tab-overflow .nav.nav-tabs > li > a {
+				margin-left: 0px;
+			}
+			.tab-overflow .next-button,
+			.tab-overflow .prev-button {
+				position: absolute;
+				right: 0;
+				top: 0;
+				z-index: 10;
+				display: none !important;
+				opacity: 0;
+				-webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+				box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+				-webkit-transition: all .2s linear;
+				-moz-transition: all .2s linear;
+				transition: all .2s linear;
+			}
+			.tab-overflow .prev-button {
+				left: 0;
+				right: auto;
+				-webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+				box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+			}
+			.tab-overflow .nav.nav-tabs.nav-tabs-inverse .next-button,
+			.tab-overflow .nav.nav-tabs.nav-tabs-inverse .prev-button {
+				-webkit-box-shadow: 0 0 15px #000;
+				box-shadow: 0 0 15px #000;
+			}
+			.tab-overflow .nav.nav-tabs.nav-tabs-inverse .prev-button {
+				-webkit-box-shadow: 0 0 15px #000;
+				box-shadow: 0 0 15px #000;
+			}
+			.tab-overflow .next-button a,
+			.tab-overflow .prev-button a {
+				margin: 0;
+				background: #c1ccd1;
+			}
+			.flat-black .tab-overflow .next-button a,
+			.flat-black .tab-overflow .prev-button a {
+				background: #d2d2d2;
+			}
+			.tab-overflow .prev-button > a {
+				-webkit-border-radius: 3px 0 3px;
+				-moz-border-radius: 3px 0 3px;
+				border-radius: 3px 0 3px;
+			}
+			.tab-overflow .nav-tabs-inverse .next-button > a,
+			.tab-overflow .nav-tabs-inverse .prev-button > a,
+			.nav.nav-tabs.nav-tabs-inverse > li > a,
+			.nav.nav-tabs.nav-tabs-inverse > li > a:hover,
+			.nav.nav-tabs.nav-tabs-inverse > li > a:focus {
+				background: #242a30;
+			}
+			.flat-black .tab-overflow .nav-tabs-inverse .next-button > a,
+			.flat-black .tab-overflow .nav-tabs-inverse .prev-button > a,
+			.flat-black .nav.nav-tabs.nav-tabs-inverse > li > a,
+			.flat-black .nav.nav-tabs.nav-tabs-inverse > li > a:hover,
+			.flat-black .nav.nav-tabs.nav-tabs-inverse > li > a:focus {
+				background: #2A2A2A;
+			}
+			.nav.nav-tabs.nav-tabs-inverse > li.active > a,
+			.nav.nav-tabs.nav-tabs-inverse > li.active > a:hover,
+			.nav.nav-tabs.nav-tabs-inverse > li.active > a:focus {
+				background: #fff;
+				color: #242a30;
+			}
+			.tab-overflow.overflow-right .next-button,
+			.tab-overflow.overflow-left .prev-button {
+				display: block !important;
+				opacity: 1;
+				background: none;
+			}
+			.tab-overflow .nav-tabs > li.prev-button + li.active > a {
+				-webkit-border-radius: 0 3px 0 0;
+				-moz-border-radius: 0 3px 0 0;
+				border-radius: 0 3px 0 0;
+			}
+			
+
+
+.booking-rooms-calendar-popup-style {
+    width: auto;
+    max-width: 250px;
+    height: auto;
+    background: #444444;
+    border: 1px #b1b1b1 solid;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.21);
+    box-shadow: 0 1px 1px rgba(0,0,0,.21);
+    padding: 0px;
+    position: absolute;
+    z-index: 10001;
+    color: #ffffff;
+}
+.booking-rooms-calendar-popup-style h6 {
+	color: #ffffff;
+    background: #535353;
+    padding: 8px;
+    padding-bottom: 5px;
+    margin-bottom: 12px;
+	margin-top: 0px;
+}
+.be-bookingrooms-popup-p {
+	padding-left:0px;
+	margin-bottom: 10px;
+}
+.be-bookingrooms-popup-p p {
+	word-break:break-all;
+	font-size:12px;
+	margin: 0px;
+}
+
+.fc-list-item-title a {
+    text-decoration: none;
+    color: inherit;
+    padding-left: 10px;
+}
+
+
+.bookingrooms-calendar-logins {
+    margin-top: 10px;
+    margin-right: 10px;
+    z-index: 9;
+    position: relative;
+}
+.bookingrooms-calendar-box-1 {
+    margin-bottom: 20px;
+}
+.bookingrooms-calendar-details-button {
+    font-size: 10px;
+    padding: 3px 5px;
+    margin-left: 20px;
+    margin-top: -2px;
+}
+.be-bookingrooms-areas-title {
+    margin-left: 2px;
+}
+
+			
+/*!
+ * BuilderEngine Modules - Booking Rooms
+ */
+/* -------------------------------
+    #Responsive Styles
+------------------------------- */
+
+@media (max-width: 1200px) {
+.bookingrooms-event-product-price {
+    margin-top: 10px;
+}
+.bookingrooms-details-right-box {
+    padding-bottom: 20px;
+}
+}
+@media (min-width: 1200px)
+.content{}
+}
+@media (min-width: 768px) and (max-width: 992px) {
+}
+@media (max-width: 992px) {
+.bookingrooms-details-left-box {
+    padding-right: 15px;
+}
+.bookingrooms-details-right-box {
+    margin-left: 15px;
+    width: 96%;
+}
+.bookingrooms-event-product-price {
+    margin-top: 2px;
+}
+.bookingrooms-prices-box h4 {
+    padding-bottom: 15px;
+}
+}
+
+@media (max-width: 770px) { 
+}
+
+@media (max-width: 767px) {
+}
+
+@media (max-width: 480px) {
+.bookingrooms-style .fc-toolbar .fc-left {
+    float: left;
+    padding-bottom: 15px;
+}
+.bookingrooms-style .fc-toolbar .fc-right {
+    float: left;
+    padding-bottom: 15px;
+}
+}

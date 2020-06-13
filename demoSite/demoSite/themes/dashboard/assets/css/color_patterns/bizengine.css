@@ -1,0 +1,56 @@
+.sidebar .nav > li.active > a, .sidebar .nav > li.active > a:focus, .sidebar .nav > li.active > a:hover, .page-sidebar-minified .sidebar .nav > li.has-sub.active:focus > a, .page-sidebar-minified .sidebar .nav > li.has-sub.active:hover > a, .page-sidebar-minified .sidebar .nav > li.has-sub.active > a, .label.label-theme, .btn.btn-scroll-to-top {
+    background: lightseagreen !important;
+}
+.sidebar .nav > li.nav-profile:before {
+    background: #636363 !important;
+}
+.sidebar{
+	background: teal !important;
+}
+.sidebar .nav > li.expand > a, .sidebar .nav > li > a:hover, .sidebar .nav > li > a:focus {
+    color: lightsalmon !important;
+}
+.panel-grey .panel-heading-2 {
+    background: darksalmon !important;
+}
+.beweboptions{
+	background: cadetblue !important;
+}
+.fa.pull-right {
+    color: white !important;
+}
+.sidebar .nav > li.nav-profile .info small {
+    color: #eee;
+}
+.sidebar .nav > li.expand > a i {
+    color: lightsalmon !important;
+}
+.btn.btn-indigo {
+    color: #fff;
+    background: darkred;
+    border-color: maroon;
+}
+.btn-indigo:hover, .btn-indigo:focus, .btn-indigo:active, .btn-indigo:active:focus, .btn-indigo.focus, .btn-indigo.active, .btn-indigo.active.focus, .btn-indigo.active:focus, .btn-indigo.active:hover, .btn-indigo:active.focus, .btn-indigo:active:focus, .btn-indigo:active:hover, .open > .dropdown-toggle.btn-indigo, .open > .dropdown-toggle.btn-indigo.focus, .open > .dropdown-toggle.btn-indigo:focus, .open > .dropdown-toggle.btn-indigo:hover {
+    background: maroon;
+    border-color: maroon;
+}
+.btn.btn-inverse {
+    color: #fff;
+    background: #636363;
+    border-color: #707070;
+}
+.navbar-nav > li > .dropdown-menu {
+    background: lightseagreen;
+}
+.cke_top{
+	background:teal !important;
+}
+.page-sidebar-minified .sidebar .nav li.has-sub > .sub-menu, .page-sidebar-minified .sidebar .nav li.has-sub > .sub-menu > li{
+    background: teal;
+}
+.beweboptions-sub {
+    background: teal !important;
+}
+.sidebar-minify-btn{
+	background:#616161;
+}

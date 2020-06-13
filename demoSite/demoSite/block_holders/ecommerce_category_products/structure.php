@@ -1,0 +1,10 @@
+ecommerce_category
+	col.col-lg-12
+		ecommerce_category_products
+		/ecommerce_category_products
+	/col
+	col.col-lg-12
+		ecommerce_category_pagination
+		/ecommerce_category_pagination
+	/col
+/ecommerce_category

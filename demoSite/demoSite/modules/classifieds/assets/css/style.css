@@ -1,0 +1,1190 @@
+/*!
+ * BuilderEngine Module Themes (http://builderengine.com)
+ */
+
+
+/* -------------------------------
+	General Styles - Classifieds
+------------------------------- */
+.classifieds h3 {
+   margin-top:0px;
+}
+.be-classifieds-ad-desc h4 {
+   padding-bottom: 10px !important;
+   margin-top: 0px;
+}
+.classifieds-header-font12 h2 {
+   margin-top:0px;
+}
+.be-classifieds-posted-ads-panel-title a {
+   color: #ffffff;
+}
+.be-classifieds-filters-contain {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.classifieds .breadcrumb {
+	font-size:11px;
+    list-style: none;
+    background: none !important;
+	padding: 0px !important;
+    margin-top: 10px !important;
+    border-radius: 0px;
+}
+.classifieds .breadcrumb>li a {
+    color: #3c3c3c !important;
+}
+.classifieds .breadcrumb-row {
+	padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.classifieds .navbar-user img {
+    width: 20px;
+    height: 20px;
+    margin: 0px 4px 0 0;
+	margin-left: 7px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+}
+.classifieds .navbar-user-box img {
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin: 0px 12px 0 0;
+    margin-top: 1px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+}
+.classifieds .navbar-user-box {
+    font-weight:600;
+}
+.classifieds-user .caret {
+    margin-left: 3px;
+    margin-top: 12px;
+}
+.classifieds-caret-user {
+    margin-top: 8px;
+}
+.classifieds-report-bottom {
+    margin-bottom: 20px;
+}
+
+.classifieds-main-row {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 15px;
+}
+.classifieds-maincategory-row {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.classifieds-img-account-avatar {
+   margin-left: -5px;
+   padding-right: 5px;
+}
+.classifieds-push-account-avatar {
+}
+
+.classifieds-featured-bg {
+	background: #ffffff;
+}
+
+/* -----------------------------------
+   BuilderEngine Classifieds - Buttons
+-------------------------------------- */
+
+/* 1.13 Button */
+
+.classifieds-btn {
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-box-shadow: 0 0 2px rgba(0,0,0,0.12),0 2px 2px rgba(0,0,0,0.2);
+    box-shadow: 0 0 2px rgba(0,0,0,0.12),0 2px 2px rgba(0,0,0,0.2);
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+	font-size: 14px;
+    font-weight: 600;
+}
+.classifieds-category-search-btn {
+	font-size: 14px;
+	width: 180px;
+	height: 45px;
+    border-radius: 0px;
+}
+.classifieds .btn-sm {
+    padding: 8px 26px;
+}
+.classifieds .btn-sm:hover {
+    padding: 8px 26px;
+}
+
+/* 1.13.1 Button - Default */
+
+.classifieds .btn.btn-default {
+    color: #212121;
+    background: #fff;
+    border-color: #fff;
+}
+.classifieds .btn-default:hover, 
+.classifieds .btn-default:focus, 
+.classifieds .btn-default:active, 
+.classifieds .btn-default:active:focus,
+.classifieds .btn-default.focus,
+.classifieds .btn-default.active,
+.classifieds .btn-default.active.focus, 
+.classifieds .btn-default.active:focus, 
+.classifieds .btn-default.active:hover, 
+.classifieds .btn-default:active.focus, 
+.classifieds .btn-default:active:focus, 
+.classifieds .btn-default:active:hover, 
+.open > .dropdown-toggle.classifieds.btn-default,
+.open > .dropdown-toggle.classifieds.btn-default.focus, 
+.open > .dropdown-toggle.classifieds.btn-default:focus, 
+.open > .dropdown-toggle.classifieds.btn-default:hover {
+    background: #EEEEEE;
+    border-color: #EEEEEE;
+}
+.classifieds .btn-default.disabled, 
+.classifieds .btn-default[disabled], 
+fieldset[disabled] .classifieds  .btn-default,
+.classifieds .btn-default.active,
+.classifieds .btn-default.active.focus, 
+.classifieds .btn-default.active:hover,
+.classifieds .btn-default.active:focus,
+.classifieds .btn-default:active:focus, 
+.classifieds .btn-default:active:hover,
+.open > .dropdown-toggle.classifieds.btn-default,
+.open > .dropdown-toggle.classifieds.btn-default.focus, 
+.open > .dropdown-toggle.classifieds.btn-default:focus, 
+.open > .dropdown-toggle.classifieds.btn-default:hover {
+    border-color: #BDBDBD;
+}
+.btn-group .btn.classifieds.btn-default:not(.active) + .btn.classifieds.btn-default,
+.input-group-btn .btn.classifieds.btn-default:not(.active) + .btn.classifieds.btn-default {
+    border-left-color: #BDBDBD;
+}
+
+/* 1.13.21 Button - Grey */
+
+.btn.btn-grey {
+    color: #fff;
+    background: #9E9E9E;
+    border-color: #9E9E9E;
+}
+.btn-grey:hover, 
+.btn-grey:focus, 
+.btn-grey:active, 
+.btn-grey:active:focus,
+.btn-grey.focus,
+.btn-grey.active,
+.btn-grey.active.focus, 
+.btn-grey.active:focus, 
+.btn-grey.active:hover, 
+.btn-grey:active.focus, 
+.btn-grey:active:focus, 
+.btn-grey:active:hover, 
+.open > .dropdown-toggle.btn-grey,
+.open > .dropdown-toggle.btn-grey.focus, 
+.open > .dropdown-toggle.btn-grey:focus, 
+.open > .dropdown-toggle.btn-grey:hover {
+    background: #BDBDBD;
+    border-color: #BDBDBD;
+}
+.btn-group .btn.btn-grey:not(.active) + .btn.btn-grey,
+.input-group-btn .btn.btn-grey:not(.active) + .btn.btn-grey {
+    border-left-color: #757575;
+}
+
+.silver-button
+{
+  background-color: #fbfbfb;
+  background-image: none;
+  color: #000;
+  border: 1px solid #e6e6e6;
+  border-radius: 4px;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+.silver-button:hover
+{
+  color: #fff;
+  background-color: #bbb;
+}
+
+.message-button {
+    color: #ffffff;
+    background: #f59c1a;
+    border-color: #f59c1a;
+	width: 100%;
+    padding: 11px;
+  	margin-bottom: 15px;
+	font-weight: 600;
+}
+.message-button:hover, 
+.message-button:focus, 
+.message-button:active, 
+.message-button.active, 
+.open .dropdown-toggle.message-button {
+    background: #c47d15;
+    border-color: #c47d15;
+	color: #ffffff;
+}
+.btn-group .btn.message-button:not(.active) + .btn.message-button,
+.input-group-btn .btn.message-button:not(.active) + .btn.message-button {
+    border-left-color: #c47d15;
+}
+
+.call-button {
+    color: #ffffff;
+    background: #00acac;
+    border-color: #00acac;
+	width: 100%;
+    padding: 11px;
+  	margin-bottom: 15px;
+	font-weight: 600;
+}
+.call-button:hover, 
+.call-button:focus, 
+.call-button:active, 
+.call-button.active, 
+.open .dropdown-toggle.call-button {
+    background: #008a8a;
+    border-color: #008a8a;
+	color: #ffffff;
+}
+.btn-group .btn.call-button:not(.active) + .btn.call-button,
+.input-group-btn .btn.call-button:not(.active) + .btn.call-button {
+    border-left-color: #008a8a;
+}
+
+/* -----------------------------------
+   BuilderEngine Classifieds - General
+-------------------------------------- */
+#gallery .thumbnail img {
+  max-height: 130px;
+}
+
+.classifieds-panel-body {
+	background: #313131;
+	padding-bottom: 0px;
+}
+.classifieds-panel-body-white {
+	background: #ffffff;
+	padding-bottom: 0px;
+}
+.classifieds-panel-body-user-dropdown {
+	background: #ffffff;
+}
+.classifieds-panel-body-category-dropdown {
+	padding-left: 25px;
+    padding-top: 15px;
+}
+.classifieds-header-light h4 {
+}
+.classifieds-panel-comments-ad h4 {
+}
+.classifieds-panel-comments-ad h5 {
+	margin-top: 0px;
+}
+.classifieds-panel-comments-ad {
+}
+.classifieds-panel-comments-ad label {
+}
+.classifieds-header-dark {
+	background: #313131;
+	color: #ffffff;
+	border: 1px #e2e2e2 solid;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.21);
+    box-shadow: 0 1px 1px rgba(0,0,0,.21);
+}
+.classifieds-header-categories-dark {
+    background: #313131;
+    color: #ffffff;
+    border: 1px #e2e2e2 solid;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.21);
+    box-shadow: 0 1px 1px rgba(0,0,0,.21);
+    margin-top: -7px;
+    border-radius: 4px;
+}
+.classifieds-panel-body-seller-latest {
+	background: #ffffff;
+	padding: 0px;
+}
+.classifieds-header-light {
+	background: #313131;
+	border: 1px #e2e2e2 solid;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.21);
+    box-shadow: 0 1px 1px rgba(0,0,0,.21);
+}
+.classifieds-header-categories {
+    z-index:10;
+	margin-top:0px;
+	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.21);
+    box-shadow: 0 1px 1px rgba(0,0,0,.21);
+}
+.text-grey {
+	color: #dedede;
+    font-weight: 500;
+}
+.classifieds-header-font12 p {
+    font-size: 12px;
+}
+#listings-page .classifieds-price {
+  font-size: 24px;
+  text-align: left;
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+.classifieds-price {
+    margin: 0 0px 10px 0;
+    font-size: 1.9em;
+    font-weight: 900;
+    color: #008000 !important;
+}
+.classifieds-seller-latest-price p {
+  font-size: 20px;
+  padding-bottom: 5px;
+  font-weight: 600;
+  color: #008000;
+}
+.classifieds-seller-latest-posted p {
+  font-style:italic
+}
+.other-from-seller {
+  border: 1px solid #e6e6e6;
+}
+.other-from-seller:hover {
+  border:1px solid #323232;
+  transition: border-color 1s ease;  
+}
+.recent-item-info-row {
+  padding: 10px 0px;
+  min-height: 155px;
+}
+.recent-item-image {
+  height:185px;
+}
+
+
+.classifieds-user-dropdown-text {
+  font-size: 15px;
+  padding: 5px 10px !important;
+}
+.classifieds-user-dropdown-space li {
+  height:31px;
+}
+.classifieds-panel-body-user-dropdown a {
+}
+.classifieds-user-button-margin {
+    margin-left: 12px;
+}
+.classifieds-user-panel-details {
+	display: none;
+	position:absolute; 
+	left: -5px;
+	z-index:10; 
+	width:200px
+}
+.classifieds-panel-body-user-dropdown hr {
+margin-bottom: 2px !important;
+margin-top:2px;
+}
+.classifieds-category-submenu > .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -9px;
+    margin-left: -10px;
+}
+.category-element:hover
+{
+    background-color: #323232 !important;
+    color: #fff !important;
+    text-decoration: none;
+}
+.classifieds-category-float {
+    float:right;
+}
+
+
+/* Classified review */
+.nav-tabs{
+	margin-bottom: 10px;
+}
+.classifieds-review{
+	background: #fafafa;
+	margin: 10px 0px;
+	border-radius: 5px;
+	border: 1px solid #eee;
+	padding: 10px;
+	color: #000000;
+}
+.classifieds-review .rmeta{
+	font-style: italic;
+	margin-top: -7px;
+    margin-left: -1px;
+}
+.classifieds-color-red{
+	color: #f25758;
+}
+.form-horizontal .form-actions {
+padding-left: 100px;
+}
+.form-actions {
+padding: 5px 20px 5px;
+background:transparent;
+border-top:0px;
+}
+
+
+/* LISTINGS */
+.listings p {
+  margin: 0;
+}
+.listings h3 {
+  margin: 0;
+}
+.listings .listing-row {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+	background: #ffffff;
+    border: 1px #e2e2e2 solid;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.21);
+    box-shadow: 0 1px 1px rgba(0,0,0,.21);
+}
+.listings .listing-row:nth-child(even) {
+  background: #fafafa;
+}
+.listings .premium.listing-row {
+  background: #FFFFDD;
+  border-bottom: 1px solid #c6ebff;
+  position: relative;
+}
+.listings .classifieds-category-paddings {
+
+}
+.listings .listing-row.last {
+  border-bottom: 1px solid #fff;
+}
+.classifieds-recent-listings .panel-body {
+  padding: 0 15px;
+}
+.classifieds-recent-listings .price-text {
+  text-align: right;
+  color: #008000;
+}
+.classifieds-recent-listings .listing-row {
+  border-bottom: 1px solid #e6e6e6;
+  padding-top: 20px;
+  padding-bottom: 0px;
+}
+.classifieds-recent-listings .listing-row:nth-child(even) {
+  background: #fafafa;
+}
+p.muted {
+  color: #353535;
+}
+.classifieds-recent-ads-paddingtop {
+  padding-top: 5px;
+}
+.classifieds-seller-latest-price-font p {
+  font-size:16px;
+}
+
+.classifieds-category .price-text {
+    color: #008000;
+	float: right;
+	font-weight:600;
+}
+
+/* ribbons*/
+.ribbon-wrapper {
+  margin: 50px auto;
+  width: 280px;
+  height: 370px;
+  background: white;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  position: relative;
+  z-index: 90;
+}
+.ribbon-wrapper-red {
+  width: 124px;
+  height: 124px;
+  overflow: hidden;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.ribbon-red {
+  font: bold 10px Sans-Serif;
+  color: #333;
+  text-align: center;
+  /*text-shadow: rgba(255,255,255,0.5) 0px 1px 0px;*/
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  position: relative;
+  padding: 7px 0;
+  left: -33px;
+  top: 10px;
+  width: 145px;
+  background-image: -webkit-linear-gradient(top, #cc0000 0%, #990000 100%);
+  background-image: linear-gradient(to bottom, #cc0000 0%, #990000 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffcc0000', endColorstr='#ff990000', GradientType=0);
+  color: #ffffff;
+  -webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+  z-index: 1;
+  text-transform: uppercase;
+}
+.ribbon-red span {
+  position: absolute;
+  left: 35px;
+  top: 7px;
+}
+.ribbon-red:before,
+.ribbon-red:after {
+  content: "";
+  border-top: 3px solid #6e8900;
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  position: absolute;
+  bottom: -3px;
+}
+.ribbon-red:before {
+  left: 0;
+}
+.ribbon-red:after {
+  right: 0;
+}
+
+
+/* CATEGORIES */
+.classifieds-top-bar {
+	margin-top: 5px;
+	margin-bottom: 20px;
+    background: #fbfbfb;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.06);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.06);
+}
+}
+.classifieds-category-activename {
+
+}
+.classifieds-category-activename h2 {
+
+}
+.classifieds-search-container {
+}
+.home-tron {
+}
+.home-tron-search {
+  margin-bottom: 0;
+  padding: 0px 0;
+}
+.home-tron-search .home-tron-search-inner {
+  border-radius: 3px;
+}
+.home-tron-search .form-control {
+  padding: 10px 8px;
+}
+.home-tron-search .input-group-addon {
+  padding: 0;
+}
+.home-tron-search .input-group-addon.input-group-addon-text {
+  background: transparent;
+  color: #000;
+  border: none;
+  padding-right: 20px;
+}
+.home-tron-search .input-group-addon .btn {
+  padding: 9px 18px;
+}
+.home-tron-search .input-group-addon li a {
+  text-align: left;
+  padding: 10px 18px;
+}
+.home-tron-search .input-group-addon .btn {
+  text-transform: none;
+}
+.home-tron-search .input-group-addon .btn {
+  color: #000;
+  font-weight: 600;
+  padding-top: 12px;
+  text-transform: uppercase;
+}
+.home-tron-search .input-group-addon .btn .dropdown-menu ul il a {
+  text-align: left;
+}
+.home-tron-search .btn {
+	-moz-user-select: none;
+	border: 1px solid transparent;
+	font-size: 13px;
+    text-align: center;
+    vertical-align: middle;
+}
+.home-tron-search .form-control {
+  padding: 0px 15px;
+  height: 47px;
+}
+.input-group-addon {
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    color: #555;
+    text-align: center;
+    background-color: #eee;
+    border-radius: 4px;
+    border: 1px solid #dfd9d9;
+}
+.classifieds-search-advanced-filters {
+  background: #ffffff;
+  border: 1px #e2e2e2 solid;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.21);
+  box-shadow: 0 1px 1px rgba(0,0,0,.21);
+  width:95.3%;
+  padding: 10px 20px; 
+  margin-left:2.3%; 
+  display: none
+}
+.classifieds-search-advanced-rowmargin {
+  margin: 6px 0px !important;
+}
+.classifieds-category-listing-open {
+  display: block;
+  position: relative;
+}
+
+.classifieds-category-listing-list .dropdown-menu {
+    width: 100%;
+	z-index: 999;
+}
+.classifieds-category  {
+}
+.classifieds-category .nav-tabs>li {
+    float: right;
+    margin-bottom: -1px;
+}  
+.classifieds-category .nav-tabs>li>a {
+}
+.classifieds-category a {
+	text-decoration: none;
+}
+.classifieds-category-p {
+    color: #000000;
+}
+.classifieds-category-p:hover {
+    color: #000000;
+}
+.classifieds-category h3:hover {
+    color: #337ab7;
+}
+.classifieds-category p {
+    color: #000000;
+    margin-bottom:10px;
+	text-decoration: none;
+}
+.classifieds-category h3 {
+    margin-bottom:10px;
+	color: #000000;
+}
+.classifieds-panel-body-white h2 {
+}
+.classifieds-panel-body-white p {
+}
+	
+
+/* Classifieds Grid-Item */
+
+.listings .grid-listing-row {
+    padding-top: 0px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.grid-thumbnail {
+    
+}
+.grid-thumbnail img {
+    height:180px;
+}
+
+.grid-box-padding {
+    padding: 10px;
+}
+
+.grid-box-padding h3 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.classifieds-category .grid-price-text {
+    color: #008000;
+    font-weight: 600;
+	font-size: 20px;
+    margin: 7px 0px;
+    padding: 2px 5px;
+    border-radius: 5px;
+    border: 1px solid #008000;
+    box-shadow: inset 0px 0px 1px #888;
+}
+
+.grid-classifieds-category {
+    color: #000000;
+	margin-bottom:0px !important;
+    text-decoration: none;
+    font-size: 13px;
+}
+.grid-classifieds-category-posted {
+    margin-bottom:20px !important;
+    text-decoration: none;
+    font-size: 13px;
+}
+.grid-float-right {
+    float:right;
+	margin-top: 5px;
+}
+
+
+
+.grid-items{
+	margin: 20px 0px;
+}
+
+.grid-items .breadcrumb{
+	background: transparent;
+	border: 0px solid #eee;
+	padding: 0px 0px 5px 0px;
+	margin: 0px 0px 10px 0px;
+	border-radius: 0px;
+	border-bottom: 1px solid #f3f3f3;
+}
+
+.grid-item{
+	min-height: 280px;
+	max-height: 300px;
+	max-width: 250px;
+	margin: 10px auto;
+	padding: 10px 10px;
+	border: 1px solid #f3f3f3;
+	box-shadow: inset 0px 0px 1px #ddd;
+	-webkit-transition:box-shadow 1s ease;
+   	-moz-transition:box-shadow 1s ease;
+   	-o-transition:box-shadow 1s ease;
+   	transition:box-shadow 1s ease;
+}
+
+.grid-item:hover{
+	box-shadow: inset 0px 0px 5px #ccc;
+	-webkit-transition:box-shadow 1s ease;
+   	-moz-transition:box-shadow 1s ease;
+   	-o-transition:box-shadow 1s ease;
+   	transition:box-shadow 1s ease;	
+}
+
+.grid-item .ico{
+	color: #fff;
+	display: inline-block;
+	width: 35px;
+	height: 20px;
+	margin-left: 5px;
+}
+
+.grid-item hr{
+	margin: 5px 0px;
+}
+
+.grid-item .grid-item-image{
+	max-height: 150px;
+}
+
+.grid-item .grid-item-image img{
+	padding: 5px 0px;
+	height: 140px;
+	width: auto;
+	display: block;
+	margin: 0 auto;
+}
+
+.grid-item .grid-item-details h5{
+	text-align: center;
+}
+
+.grid-item .grid-item-details h5 a{
+	color: #666;
+}
+
+.grid-item .grid-item-details h5 a:hover{
+	text-decoration: none;
+}
+
+.grid-item .grid-item-details p{
+	text-align: center;
+}
+
+.grid-item .grid-item-price{
+	margin: 7px 0px;
+	display: inline-block;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 2px 5px !important;
+	line-height: 20px;
+	border-radius: 5px;
+	font-size: 14px;
+	font-weight: bold;
+	background: #f3f3f3;
+	border: 1px solid #eee;
+	box-shadow: inset 0px 0px 1px #888;
+}
+
+
+/* Search Page */
+.listings .classifieds-search-results-margin30 {
+	margin-bottom: 30px;
+}
+
+/* Create Ad Page */
+.classifieds-create-error {
+	font-size: 14px; 
+	color: red; 
+	margin-top: 20px; 
+	margin-bottom: 20px
+}
+.classifieds-create-headertitle {
+	font-weight:600;
+}
+
+/* Posted Ads */
+.classifieds-postedads-padding {
+padding: 20px;
+}
+
+/* Message Inbox */
+.classifieds-inbox-boxdetails {
+    background-color: #f7f7f7;
+    margin-bottom: 5%;
+    border: 1px #e2e2e2 solid;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.21);
+    box-shadow: 0 1px 1px rgba(0,0,0,.21);
+}
+.classifieds-inbox-image {
+    height: 100px;
+}
+.classifieds-inbox-boxdetails img {
+    height: 100px;
+}
+.classifieds-inbox-fromtitle {
+    margin-top: 20px;
+}
+.classifieds-inbox-title-font {
+        font-size: 18px;
+}
+.classifieds-inbox-title-date {
+       font-style:italic
+}
+.classifieds-inbox-productinfo {
+    color: #020202;
+    background: #eaeaea;
+    margin-bottom: 0px;
+    padding: 10px;
+    font-weight: 600;
+}
+.classifieds-inbox-messagebox {
+	margin-bottom: 0px;
+    padding: 20px;
+    background-color: #fff;
+    border-top: 1px solid #C7C7C7;
+    border-bottom: 1px solid #C7C7C7;
+}
+.classifieds-inbox-messagereply-left {
+	float:left;
+	border-radius: 0px !important
+}
+.classifieds-inbox-messagereply-right {
+	float:right;
+	border-radius: 0px !important
+}
+.classifieds-sendmessage-messagereply-right {
+	margin-right: 20px;
+	float:right;
+	border-radius: 0px !important
+}
+
+
+/* Profile */
+.classifieds-profile-box img {
+    width: 100%;
+    height: 250px;
+    line-height: 250px;
+    text-align: center;
+    overflow: hidden;
+}
+.classifieds-profile-body-info {
+    background: #ffffff;
+    padding:20px;
+}
+.classifieds-profile-body-follow {
+    background: #ffffff;
+	padding-bottom: 0px;
+}
+.classifieds-profile-postedads {
+    float:right;
+}
+.classifieds-profileother-from-seller {
+    border: 1px solid #e6e6e6;
+    margin-bottom: 15px;
+}
+.classifieds-profile-desc {
+    text-decoration: none;
+	color: #1d1d1d;
+}
+.classifieds-profile-desc:hover {
+    text-decoration: none;
+	color: #1d1d1d;
+}
+
+
+/* Directory Listings */
+.classifieds-directory-maintitle {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    z-index: 1;
+    position: relative;
+    color: #ffffff;
+	font-size: 1.4em;
+    letter-spacing: normal;
+    line-height: 27px;
+	margin:10px;
+}
+.classifieds-directory { 
+}
+.classifieds-directory i {
+  font-size: 29px;
+}
+.classifieds-directory .directory-block {
+  min-height: 171px;
+}
+.classifieds-directory-counties {
+  margin-top: 10px;
+  overflow: hidden;
+}
+.classifieds-directory-counties h4 {
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.classifieds-directory-thumbnails-margin {
+  margin-top: 10px;
+  overflow: hidden;
+}
+.classifieds-directory-thumbnails-margin-left {
+}
+.classifieds-directory-thumbnails-margin-right {
+}
+
+.classifieds-directory a { 
+}
+.classifieds-directory a:hover { 
+}
+.classifieds-directory-list-center { 
+	margin-left: 85px;
+    text-align: left;
+	z-index: 100;
+}
+
+
+.left-front-thumbnail
+{
+  width: 50px;
+  height: 45px; 
+  background-color: #ffffff; 
+  margin: 10px;
+  -ms-transform:rotate(-13deg);
+  -webkit-transform:rotate(-13deg);
+  border: 1px solid #E7E7E7;
+  position: absolute;
+  top: 2px;
+  z-index: 10;
+}
+
+.section-thumbnail-image
+{
+  max-width: 43px; 
+  max-height: 43px;
+}
+
+.section-thumbnail-title
+{
+  margin-top: 10px;
+}
+
+.left-back-thumbnail
+{
+  width: 50px;
+  height: 45px; 
+  background-color: #ffffff; 
+  margin: 10px;
+  border: 1px solid #E7E7E7;
+  position: absolute;
+  top: 2px;
+}
+
+.right-thumbnail
+{
+  width: 47px;
+  height: 47px; 
+  background-color: #ffffff; 
+  -ms-transform:rotate(4deg);
+  -webkit-transform:rotate(4deg);
+  border: 1px solid #E7E7E7;
+  position: absolute;
+  left: 35px;
+  z-index: 12;
+}
+
+
+
+
+/* Pagination */
+
+.paging {
+width:270px;
+clear:both;
+padding:6px 0;
+line-height:17px;
+font-size:13px;
+}
+ 
+.paging span, .paging a {
+display:block;
+float:left;
+margin: 2px 2px 2px 0;
+padding:5px 8px;
+text-decoration:none;
+width:auto;
+color:#666;
+background: #fff;
+border:1px solid #ddd;
+font-weight:normal;
+}
+ 
+.paging a:hover{
+color:#fff;
+}
+ 
+.paging .current{
+padding:5px 8px;
+color:#fff;
+}
+
+.classsifieds-posted-ads-renewbutton {
+width:100%;
+}
+.classifieds-report-btn{
+	font-size:10px !important;
+}
+
+.classified-featured-margin-fix {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+
+/*!
+ * BuilderEngine Modules - Classifieds
+ */
+/* -------------------------------
+    #Responsive Styles
+------------------------------- */
+
+@media (max-width: 1200px) {
+.classifieds-main-row {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 15px;
+}
+.classifieds-profile-box img {
+    width: 100%;
+    height: auto;
+    line-height: 250px;
+    text-align: center;
+    overflow: hidden;
+}
+}
+@media (min-width: 1200px)
+.content{}
+}
+@media (min-width: 768px) and (max-width: 992px) {
+}
+@media (max-width: 992px) { 
+.classifieds-directory .directory-block {
+  min-height: 171px;
+  margin-left: -25px;
+}
+.classifieds-category-activename h2 {
+    font-weight: 600;
+    margin: 12px 0;
+    margin-left: -15px;
+    font-size: 22px;
+}
+.classifieds-recent-listings .price-text {
+    text-align: left;
+    color: #008000;
+}
+.classifieds-category-float {
+    float:none;
+	margin-left: 15px;
+}
+.classifieds .btn-sm {
+    padding: 8px 26px;
+    width: 100%;
+}
+.recent-item-image {
+    height: auto;
+    width: 100%;
+}
+.classsifieds-posted-ads-renewbutton {
+margin-top: -10px !important;
+margin-bottom:15px;
+}
+}
+
+@media (max-width: 770px) { 
+}
+
+@media (max-width: 767px) {
+.classifieds-directory-list-center {
+    margin-left: 85px;
+    text-align: center;
+    z-index: 100;
+}
+.grid-thumbnail img {
+    height: auto;
+}
+.classifieds-breadcrumb-hidden {
+}
+}
+
+@media (max-width: 480px) {
+.classifieds-category h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+}

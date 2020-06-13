@@ -1,0 +1,395 @@
+/*!
+ * BuilderEngine Themes (http://builderengine.com)
+ */
+
+/* -------------------------------
+	Green Theme Color
+------------------------------- */
+body {
+    background: #f9f9f9;
+    color: #333;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #242a30;
+}
+hr {
+    border-top: #F8F8F8 1px solid;
+    border-bottom: #EEEEEE 1px solid;
+}
+
+/* -------------------------------
+    Green Theme Colors
+------------------------------- */
+
+/*---------- Colors Navbar ----------*/
+.navbar-nav > li > a {
+    color: #212121;
+}
+.themes-header-section.navbar .navbar-nav > li.active > a, 
+.themes-header-section.navbar .navbar-nav > li > a:hover, 
+.themes-header-section.navbar .navbar-nav > li > a:focus,
+.themes-header-section.navbar.navbar-default .navbar-nav > li.active > a, 
+.themes-header-section.navbar.navbar-default .navbar-nav > li > a:hover, 
+.themes-header-section.navbar.navbar-default .navbar-nav > li > a:focus,
+.themes-header-section.navbar.navbar-transparent .navbar-nav > li.active > a, 
+.themes-header-section.navbar.navbar-transparent .navbar-nav > li > a:hover, 
+.themes-header-section.navbar.navbar-transparent .navbar-nav > li > a:focus,
+.themes-header-section.navbar.navbar-inverse .navbar-nav > li.active > a, 
+.themes-header-section.navbar.navbar-inverse .navbar-nav > li > a:hover, 
+.themes-header-section.navbar.navbar-inverse .navbar-nav > li > a:focus,
+.themes-header-section.navbar.navbar-transparent.navbar-small .navbar-nav > li.active > a,
+.themes-header-section.navbar.navbar-transparent.navbar-small .navbar-nav > li > a:hover,
+.themes-header-section.navbar.navbar-transparent.navbar-small .navbar-nav > li > a:focus,
+.text-theme,
+.navbar-nav .dropdown-menu > li.active > a,
+.navbar-nav .dropdown-menu > li > a:hover,
+.navbar-nav .dropdown-menu > li > a:focus,
+.pricing-table .price .price-number, a {
+    color: #333;
+}
+.navbar-nav > li > a:hover {
+    background: none;
+}
+.navbar-nav .dropdown-menu > li.active > a,
+.navbar-nav .dropdown-menu > li > a:hover,
+.navbar-nav .dropdown-menu > li > a:focus {
+    background: #eeeeee;
+}
+.navbar-collapse ul.navbar-nav > li.active a,
+.navbar-collapse ul.navbar-nav > li a.active,
+.navbar-collapse ul.navbar-nav > li:hover > a,
+.navbar-collapse ul.navbar-nav > li > a:hover,
+.header-dark .navbar-collapse ul.navbar-nav > li.active a,
+.header-dark .navbar-collapse ul.navbar-nav > li a.active,
+.header-dark .navbar-collapse ul.navbar-nav > li:hover > a,
+.header-dark .navbar-collapse ul.navbar-nav > li > a:hover,
+.header-dark.header-prepare .navbar-collapse ul.navbar-nav li a.current,
+.header-dark.header-prepare .navbar-collapse ul.navbar-nav li.current a {
+    color: #333;
+}
+.navbar-nav .dropdown-menu > li + li {
+    border-top: 1px solid #d8d8d8;
+}
+.dropdown-menu>li>a {
+    color: #212121;
+}
+.dropdown-menu {
+    border: 0px solid #ccc;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+a:hover,
+a:focus {
+    color: #2387D0;
+}
+.text-theme, a {
+    color: #212121;
+}
+.text-white p {
+    color: #fff;
+}
+.text-white h1 {
+    color: #fff;
+}
+.text-white h2 {
+    color: #fff;
+}
+.text-white h3 {
+    color: #fff;
+}
+.text-white h4 {
+    color: #fff;
+}
+.text-white h5 {
+    color: #fff;
+}
+
+/*---------- Colors Header ----------*/
+.themes-header-section {
+	background: #fff;
+}
+.themes-headerbar {
+    background: #009688;
+	color: #FFFFFF;
+}
+.themes-headerbar a {
+	color: #FFFFFF;
+}
+.themes-headerbar a:hover {
+	color: #e5e5e5;
+}
+.themes-social i {
+    background: rgba(255, 255, 255, 0.12);
+}
+
+/*---------- Colors Footer ----------*/
+.footer-colors p {
+    color: #656565;
+}
+.footer-colors a {
+    color: #656565;
+}
+.footer-colors a:hover {
+    color: #009688;
+}
+.footer-colors h4 {
+    color: #656565;
+}
+.footer-section {
+    padding-top: 2px;
+    background: #efefef;
+}
+#footer-bottom {
+    background: #e8e8e8;
+}
+
+/*---------- Colors - Button ----------*/
+.btn.btn-colors {
+    color: #fff;
+    background: #009688;
+    border-color: #009688;
+}
+.btn-colors:hover, 
+.btn-colors:focus, 
+.btn-colors:active, 
+.btn-colors:active:focus,
+.btn-colors.focus,
+.btn-colors.active,
+.btn-colors.active.focus, 
+.btn-colors.active:focus, 
+.btn-colors.active:hover, 
+.btn-colors:active.focus, 
+.btn-colors:active:focus, 
+.btn-colors:active:hover, 
+.open > .dropdown-toggle.btn-colors,
+.open > .dropdown-toggle.btn-colors.focus, 
+.open > .dropdown-toggle.btn-colors:focus, 
+.open > .dropdown-toggle.btn-colors:hover {
+    background: #26A69A;
+    border-color: #26A69A;
+}
+.btn-group .btn.btn-colors:not(.active) + .btn.btn-colors,
+.input-group-btn .btn.btn-colors:not(.active) + .btn.btn-colors {
+    border-left-color: #00897B;
+}
+
+.btn.btn-outline-colors {
+    color: #fff;
+    border-color: #eee;
+    background: none;
+	border-width: 2px;
+}
+.btn.btn-outline-colors:hover,
+.btn.btn-outline-colors:focus {
+    border-color: #fff;
+}
+
+/*---------- Colors - Content Blocks ----------*/
+.block-colors-dark {
+    color: #fff;
+    background: #009688;
+}
+.block-colors-dark h1,
+.block-colors-dark h2,
+.block-colors-dark h3,
+.block-colors-dark h4,
+.block-colors-dark h5,
+.block-colors-dark h6 {
+    color: #fff;
+}
+.block-colors-dark-nobg {
+    background: none;
+}
+.block-colors-light {
+    color: #333;
+}
+.block-colors-light h1,
+.block-colors-light h2,
+.block-colors-light h3,
+.block-colors-light h4,
+.block-colors-light h5,
+.block-colors-light h6 {
+    color: #333;
+}
+.block-colors-light-bg {
+	background: #ffffff;
+}
+.block-colors-light .nav > li > a:hover {
+}
+
+.label-colors {
+    background-color: #009688;
+    font-weight: 600;
+}
+a.label-colors:hover, a.label-colors:focus {
+    color: #fff;
+	background-color: #07bead;
+}
+
+.be-pagination > li > a, .be-pagination > li > span {
+    background-color: #fff;
+	color: #333;
+}
+.be-pagination > li > a:hover, .be-pagination > li > a:focus {
+    color: #333;
+    background: #efefef;
+}
+
+/*---------- Colors - Module Blocks ----------*/
+.module-colors {
+    color: #333;
+}
+.module-colors h1,
+.module-colors h2,
+.module-colors h3,
+.module-colors h4,
+.module-colors h5,
+.module-colors h6 {
+    color: #333;
+}
+.module-colors-bg {
+	background: #ffffff;
+}
+.module-colors a:hover {
+    color: #07bead;
+}
+
+.nav>li>a:hover, .nav>li>a:focus {
+    background-color: #eeeeee;
+}
+.nav-tabs>li>a {
+    color: #333;
+}
+.table-striped>tbody>tr:nth-child(odd) {
+    background-color: #fbfbfb;
+}
+
+.ecommerce-product {
+    background: #ffffff;
+	color: #333;
+}
+.audiogallery-channel-bg {
+    background: #fff;
+    color: #000000;
+}
+.event-product-tab .nav.nav-tabs > li > a:hover, .event-product-tab .nav.nav-tabs > li > a:focus {
+    color: #333;
+}
+.classifieds-header {
+    border: 1px #e2e2e2 solid;
+}
+.classifieds-panel-comments-ad label {
+    color: #333;
+}
+.photogallery-channel-bg {
+    background: #fff;
+    color: #000000;
+}
+.videotube-video-allvideos-box {
+    background: #ffffff;
+}
+
+/*---------- Colors - Tabs Pills Button ----------*/
+.beblocks-nav-pills > li.active > a, 
+.beblocks-nav-pills > li.active > a:hover, 
+.beblocks-nav-pills > li.active > a:focus {
+    background: #242a30;
+}
+.beblocks-tabs2 .beblocks-nav-pills>li.active>a:focus {
+    color: #fff;
+	background-color:#242a30;
+}
+.beblocks-nav-pills > li > a:hover {
+    background: #242a30;
+    color: #fff;
+}
+
+.beblocks-nav-tabs {
+    background: #242a30;
+}
+.beblocks-tabs1 .nav > li > a {
+    color: #ffffff;
+    font-weight: 600;
+}
+.beblocks-nav-tabs > li.active > a, 
+.beblocks-nav-tabs > li.active > a:hover, 
+.beblocks-nav-tabs > li.active > a:focus,
+.beblocks-nav-tabs.nav-justified > .active > a, 
+.beblocks-nav-tabs.nav-justified > .active > a:hover, 
+.beblocks-nav-tabs.nav-justified > .active > a:focus {
+    color: #242a30;
+	background: #ffffff;
+}
+.beblocks-tabs1 .nav > li > a:hover,
+.beblocks-tabs1 .nav > li > a:focus {
+    color: #333;
+    background: #ffffff;
+}
+
+/*---------- Colors - Extra ----------*/
+
+.border-circle {
+    background: rgba(95, 245, 80, 0.45);
+}
+#hubinfo .logo2 a {
+    background: rgba(95, 245, 80, 0.45);
+}
+.services1-red {
+    background-color: #009688;
+}
+.cart-btn {
+    background-color: #009688;
+}
+.cart-btn:hover>.btn i {
+    color: #ffffff;
+}
+.event-calendar-1 .nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+    color: #ffffff;
+    background-color: #009688;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+    color: #fff;
+    background-color: #009688;
+}
+.bookingrooms-container .nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
+    color: #fff;
+    background-color: #009688;
+}
+.event-pills a:hover {
+    color: #fff;
+    background-color: #04ad9d !important;
+}
+.panel.panel-forum .panel-heading {
+    background: #0b776d;
+    color: white;
+}
+.panel.panel-forum a:hover {
+    color: white;
+}
+.panel.panel-forum.forums-recent-box h4 {
+    color: #ffffff;
+}
+.forum-list .info-container .info .title a:hover {
+	color: #3a3a3a;
+}
+.classifieds-header-dark {
+    background: #009688;
+}
+.classifieds-header-light {
+    background: #009688;
+}
+.classifieds-header-categories-dark {
+    background: #009688;
+}
+.text-grey {
+    color: #f2f2f2;
+}
+.audiogallery-allvideos-box {
+    color: #212121;
+}
+
+/*---------- Colors - Other ----------*/
+
+.timeline .timeline-body:before {
+    border-right-color: #ffffff;
+}
